@@ -321,6 +321,8 @@ nav.scrolled {
     overflow-x: auto;
     padding-bottom: 10px;
     scrollbar-width: none;
+    width: 100%;
+    max-width: 100%;
 }
 .testimonials::-webkit-scrollbar { display: none; }
 
