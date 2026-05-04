@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creatine Monohydrate | Life Fitness Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">LIFE<span>FITNESS</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#trainers">Trainers</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="store.html" class="accent-text">Store</a></li>
+                <li><a href="index.html#contact" class="btn-primary-sm">Join Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/94765944698" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+
+    <!-- Product Detail Layout -->
+    <div class="container product-detail-layout">
+        <!-- Product Image -->
+        <div class="product-image-container">
+            <img src="assets/supp_creatine.png" alt="Creatine Monohydrate">
+        </div>
+        
+        <!-- Product Info -->
+        <div class="product-info-panel">
+            <span class="badge" style="margin-bottom: 15px;">Creatine</span>
+            <h1>Micronized Creatine Monohydrate</h1>
+            <div class="price">LKR 6,500</div>
+            
+            <p class="description">
+                Boost your strength, power, and muscle mass with our premium Micronized Creatine Monohydrate. Highly pure and easily absorbable, this supplement is essential for anyone looking to push past their plateaus and maximize high-intensity performance.
+            </p>
+            
+            <ul class="nutrition-list">
+                <li><i class='bx bx-check-circle'></i> 5g of pure Creatine per serving</li>
+                <li><i class='bx bx-check-circle'></i> Unflavored for easy mixing</li>
+                <li><i class='bx bx-check-circle'></i> Supports muscle strength & endurance</li>
+                <li><i class='bx bx-check-circle'></i> 60 Servings per container</li>
+            </ul>
+            
+            <div class="product-actions">
+                <button class="add-to-cart btn-primary" style="flex: 1;">Add to Cart</button>
+                <a href="store.html" class="btn-secondary">Back to Store</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">LIFE<span>FITNESS</span></a>
+                <p>Empowering your fitness journey with expert guidance and premium facilities.</p>
+                <p style="margin-top: 10px; color: var(--color-text-secondary); font-size: 0.9rem;">
+                    <i class='bx bx-map'></i> 38, 1 Madiwela Rd, Nugegoda<br>
+                    <i class='bx bx-phone'></i> 076 594 4698
+                </p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Life Fitness Nugegoda. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Notification Toast -->
+    <div id="toast" class="toast">Added to cart!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
